@@ -1,0 +1,57 @@
+---
+title: "Ayçiçek Yağı Zeytinyağı ve Palm Yağı İhracatları Üzerine Tahmin"
+author: 
+  - Esra Çalışgan[^1]
+bibliography: ../bibliography/biblio.bib
+csl: ../csl/apa-tr.csl
+header-includes:
+  - \usepackage{polyglossia}
+  - \setmainlanguage{turkish}
+  - \usepackage{booktabs}
+  - \usepackage{caption} 
+  - \captionsetup[table]{skip=10pt}
+output:
+  bookdown::pdf_document2:
+    fig_caption: yes
+    fig_height: 3
+    fig_width: 4
+    keep_tex: no
+    latex_engine: xelatex
+    number_sections: yes
+    toc: no
+geometry: margin=1in
+link-citations: yes
+urlcolor: blue
+fontsize: 12pt
+biblio-style: apalike
+---
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache = FALSE, echo = TRUE, message = FALSE, warning = FALSE)
+```
+
+<!-- ======================================================================= -->
+<!-- ============================== NOTLAR ================================= -->
+<!-- ======================================================================= -->
+[^1]: 21080296, [Github Repo](https://github.com/esracalisgan17/arasinav)
+
+
+# Giriş
+Bitkisel yağ, bitkilerden elde edilen yağdır. Bitkisel yağlar yiyeceklerde ve yemek pişirmek amacıyla kullanılırlar. Bitkisel yağ üretiminde kullanılan en önemli bitkiler soya, palmiye yağı, kolza, kanola, zeytin ve ayçiçeği ile yer fıstığıdır (yer fıstığı yağı) (@Wikipedia:2021). Bu çalışmada bitkisel yağlardan en popüler olan üç farklı yağın ihracatıyla ilgili veriler incelenerek bu veriler ışığında bazı tahminler yapılması hedeflenmektedir. İhracat ya da dışsatım, bir malın veya hizmetin yurt dışındaki alıcılara satılmasıdır. Devletler, tüzel kişilikler ve gerçek kişilikler tarafından gerçekleştirilir. İthalatın karşıtıdır ve dış ticaret dengesini oluşturan etkenlerden biridir (@Vikipedi:2022). Söz konusu verilerdeki üç yağdan birincisi olan ayçiçek yağı ayçiçeği bitkisinin çekirdeklerinden diğer bir deyişle tohumlarından elde edilen açık sarı renkli ve hafif tadı olan bitkisel bir yağdır (@Wikipedia:2022). İkinci incelenecek yağ çeşidi zeytinyağı. Zeytinyağı rengi yeşilimsi ve sarımtırak arası değişebilmektedir. Rengin değişken olması yapısında bulundurduğu maddeler sonucudur (@Wikipedia:2023). Üçüncü ve son yağ çeşidi olan Palm yağı, palmiye yağı veya hurma yağı, palmiye meyvesinden elde edilen bir yarı katı bitkisel yağdır (@Vikipedia:2022).
+
+Yağ dünyada vazgeçilmez bir tüketim ürünüdür. Bu çalışmada GATS (General Agreement on Trade in Services) resmi ihracat verileri kullanılarak yukarıda bahsedilen önemli ürünlerin ihracat rakamlarının öngörülmesi hedeflenmekte olup aynı zamanda yağ ticaretinin dünya çapında bulunduğu durumlar çeşitli yönleriyle ele alınarak sistematik birikim içerisinde gelecek yıllarla ilgili fikir yürütülmeye çalışılacaktır.
+
+
+## Çalışmanın Amacı
+2015 ve 2022 yılları arasında 76 ülkenin Ayçiçek yağı, zeytinyağı ve palm yağı ihracatları incelenerek bu ülkelerin 2023 yılı ihracatları öngörülecektir. Bu çalışmadan elde edilen bulgularla ülkelerdeki bu yağların üretim ve satış düzeyleri ile ilgili fikir sahibi olunabilecektir. Ek olarak bu öngörülerin ülkelerin bitkisel yağ ticaretiyle ilgili politikalarını da belirlemesine yardımcı olması hedeflenmektedir.
+
+## Literatür 
+Literatür taraması sonucunda bu yağların ihracatını etkileyen faktörlerin ele alındığı çok sayıda çalışmaya rastlanmıştır. @Campbell:1983 çalışmasında ayçiçek yağını, kullanımını ve ürünlerdeki uygulamalarını ve kullanımı ile ilgili avantaj ve sorunları açıklamaktadır. @Carter:2007 ise yaptığı çalışmada, hurma yağı piyasası dengesindeki son eğilimleri ve hurma yağı temellerinin gelecekteki beklentilerini ele almaktadır. Çalışma, nispeten ucuz bir biyoyakıt (palmiye biyodizel veya doğrudan yanma için) olarak ortaya çıkan talep nedeniyle ve kısmen de fiyat avantajları nedeniyle hurma yağı ve ürünlerine olan talebin oldukça hızlı bir şekilde artma potansiyeli olduğunu ortaya koymaktadır. 
+
+@Kashiwagi:2020 makalesinde Akdeniz ülkelerinde zeytinyağı ihracatını ve ithalatını etkileyen faktörleri incelemektedir. @Onurlubaş:2007 ise Türkiye'deki bitkisel yağ sanayine ilişkin izlenilen politikalar, yapılan uygulamalar ve bunların sonuçlarına değinilmiştir.
+
+
+
+\newpage
+# Kaynakça {#references}
+<div id="refs"></div>
+
